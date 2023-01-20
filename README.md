@@ -42,13 +42,9 @@ Buat Email SMTP
 
 * ## STEP 4
 
-  Kalau nak Setting Pergi ke File setting
-
-* ## STEP 5
-
  Buat Account Render Klick Di bawah
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/) 
 
 Buat Web Service Baru
   
@@ -56,7 +52,16 @@ Connect Account Github
   
 Connect repository Github Yang Kamu Fork Tadi
   
-Start Command Tulis npm start
+Build Command Paste
+```
+npm install
+```
+
+Start Command Paste
+
+```
+npm start
+```
   
 Klick Advanced Dan
   
@@ -68,7 +73,7 @@ sendemail = 'Email SMTP'
 fromsendemail = 'EMAIL SMTP sama dengan atas'
 sendpwmail = "Password EMAIL SMTP"
 
-GET APIKEY RECAPTCHA From https://www.google.com/recaptcha/about/ or https://www.google.com/recaptcha/admin
+GET APIKEY RECAPTCHA From https://www.google.com/recaptcha/admin/create
 
 recaptcha_key_1 = 'Key recaptchaV1 Kamu'
 recaptcha_key_2 = 'Key recaptchaV2 Kamu'
@@ -78,19 +83,28 @@ recaptcha_key_2 = 'Key recaptchaV2 Kamu'
 Lepastu 
   
 Tekan Create web service
-  
-SIAPP
-  
-* ## Tutorial Youtube [COMMING SOON]
 
-<a href="https://youtu.be/QZ2FWTur9WA"><img src="https://img.youtube.com/vi/QZ2FWTur9WA/sddefault.jpg" alt="">
+lepas siap deploy add domain website kamu ke file setting dan buat key recaptcha kamu 
+copy paste kat Environment Variable di
 
- [`Tutorial In Youtube`](https://youtu.be/QZ2FWTur9WA)<br>
+```
+recaptcha_key_1 = 'Key recaptchaV1 Kamu'
+recaptcha_key_2 = 'Key recaptchaV2 Kamu'
+```
+  
+* ## Tutorial Youtube
+
+<a href="https://youtu.be/QZ2FWTur9WA"><img src="https://img.youtube.com/vi/5K3YYuq7QoI/sddefault.jpg" alt="">
+
+ [`Tutorial In Youtube`](https://youtu.be/5K3YYuq7QoI)<br>
 
 * ## SETTING ⚙️
 File Setting ``setting.js``
 
-[`Tukar Nama Creator Disini`](https://github.com/AlipBot/Api-Alpis/blob/master/settings.js#:~:text=creator%20%3D%20%27-,%E4%B9%82%F0%9D%98%BC%F0%9D%99%A1%F0%9D%99%9E%F0%9D%99%A5%E4%B9%82,-%27)<br>
+[`Tukar Nama Creator Disini`](https://github.com/AlipBot/Api-Alpis/blob/master/settings.js#:~:text=creator%20%3D%20%27-,%E4%B9%82%F0%9D%98%BC%F0%9D%99%A1%F0%9D%99%9E%F0%9D%99%A5%E4%B9%82,-%27%20//%20Nama)<br>
+[`Tukar Port Disini`](https://github.com/AlipBot/Api-Alpis/blob/master/settings.js#:~:text=port%20%3D-,8080,-//port%20host)<br>
+[`Tukar Limit Apikey Disini`](https://github.com/AlipBot/Api-Alpis/blob/master/settings.js#:~:text=LimitApikey%20%3D-,200,-//%20Limit%20Apikey%20default)<br>
+
 
 ## Command Untuk Editing
 
@@ -136,6 +150,11 @@ File Setting ``setting.js``
 | Islamic  |✔️|
 
 
+* ## Hasil Deploy🌍
+
+[`alpis.eu.org `](https://alpis.eu.org)<br>
+
+
 <img src="https://telegra.ph/file/1cbc7e659b35a053bf25f.png" width="150" height="150">
 
 ``Halal Rest API``
@@ -145,3 +164,4 @@ File Setting ``setting.js``
 <img src="https://avatars.githubusercontent.com/AlipBot" width="200" height="200">
 
 [`AlipBot`](https://github.com/AlipBot)<br>
+
